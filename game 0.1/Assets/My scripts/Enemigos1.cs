@@ -36,10 +36,10 @@ public class Enemigos1 : MonoBehaviour
         {   
             if (hitt.transform.name == "heroe" )
             {
-               
+                print("hola");
                 
+                zombiecontroller.SetFloat("spedm", 0f);
                 zombiecontroller.SetFloat("atack", 2f);
-
                 
             }
             
